@@ -1,0 +1,31 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p {
+    color:red;
+    font-style:italic;
+}
+
+img {
+    width:200px;
+    border:2px solid purple;
+}
+article {
+    border: 5px dotted pink;
+    background-color: antiquewhite;
+}
+.homeButton {
+    background-color: aliceblue;
+    color:purple;
+    border: 1px dotted purple;
+}
+/* #farFromHome {
+    float: right;
+} */
+.navButtonGroup {
+    width: 20%;  
+    margin: auto;
+}
+/* #notHome {
+    margin: auto;
+} */
