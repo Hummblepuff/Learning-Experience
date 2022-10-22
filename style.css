@@ -1,8 +1,16 @@
-*{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/* * {
+    font-family: 'tiro telugu', serif;
+} */
+html {
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(to bottom left,#f7f7f7, #60b192, #491556);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 p {
-    color:red;
+    color:#232521;
     font-style:italic;
 }
 
@@ -11,21 +19,68 @@ img {
     border:2px solid purple;
 }
 article {
-    border: 5px dotted pink;
-    background-color: antiquewhite;
+    border: 0px
+    dotted #60b192;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 2px 1px 5px #646364;
 }
 .homeButton {
-    background-color: aliceblue;
+    background-color: #ffffff;
     color:purple;
-    border: 1px dotted purple;
+    border: 0px dotted purple;
+    border-radius: 8px;
+    padding: 15px 32px;
+    box-shadow: 2px 1px 5px #646364;
 }
 /* #farFromHome {
     float: right;
 } */
 .navButtonGroup {
-    width: 20%;  
-    margin: auto;
+    width: 29%;  
+    margin-left: auto;
+    margin-right: auto;
 }
 /* #notHome {
     margin: auto;
 } */
+.mainImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 18px solid #ffffff;
+    border-radius: 8%;
+    box-shadow: 2px 1px 5px #646364;
+    width: 450px;
+    height: 450px;
+}
+.accomplishments { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 730px; 
+    min-height: 175px;
+}
+.accomplishments h3 {
+text-align: center;
+padding-top: 5px;
+}
+.likes {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 5px;
+}
+.dislikes {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: auto;
+}
+.container {
+    width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accomplishmentsColumn {
+    width: 49%;
+    display: inline-block;
+}
